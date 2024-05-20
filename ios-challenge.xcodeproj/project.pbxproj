@@ -14,6 +14,20 @@
 		5715040F2BFA62ED00647F88 /* ios_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715040E2BFA62ED00647F88 /* ios_challengeTests.swift */; };
 		571504192BFA62ED00647F88 /* ios_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571504182BFA62ED00647F88 /* ios_challengeUITests.swift */; };
 		5715041B2BFA62ED00647F88 /* ios_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715041A2BFA62ED00647F88 /* ios_challengeUITestsLaunchTests.swift */; };
+		5715042F2BFA9D0100647F88 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715042E2BFA9D0100647F88 /* PostModel.swift */; };
+		571504342BFA9D6600647F88 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571504332BFA9D6600647F88 /* PostListView.swift */; };
+		571504362BFA9F3C00647F88 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571504352BFA9F3C00647F88 /* PostsViewModel.swift */; };
+		5715043A2BFA9FB400647F88 /* APIservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571504392BFA9FB400647F88 /* APIservice.swift */; };
+		5715043C2BFAA46600647F88 /* PostItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715043B2BFAA46600647F88 /* PostItemView.swift */; };
+		571504402BFAABEB00647F88 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715043F2BFAABEB00647F88 /* UserModel.swift */; };
+		571504422BFAB5AD00647F88 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571504412BFAB5AD00647F88 /* PostDetailView.swift */; };
+		571504442BFAB7F000647F88 /* TagLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571504432BFAB7F000647F88 /* TagLabelView.swift */; };
+		571504472BFAC4D700647F88 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571504462BFAC4D700647F88 /* UserListView.swift */; };
+		5715044A2BFAC50F00647F88 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571504492BFAC50F00647F88 /* UsersViewModel.swift */; };
+		5715044C2BFAC5BF00647F88 /* UserItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715044B2BFAC5BF00647F88 /* UserItemView.swift */; };
+		5715044E2BFAC9C000647F88 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715044D2BFAC9C000647F88 /* UserDetailView.swift */; };
+		571504502BFACC9400647F88 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715044F2BFACC9400647F88 /* Extensions.swift */; };
+		571504522BFADAFA00647F88 /* UserMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571504512BFADAFA00647F88 /* UserMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,20 @@
 		571504142BFA62ED00647F88 /* ios-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		571504182BFA62ED00647F88 /* ios_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_challengeUITests.swift; sourceTree = "<group>"; };
 		5715041A2BFA62ED00647F88 /* ios_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5715042E2BFA9D0100647F88 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		571504332BFA9D6600647F88 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		571504352BFA9F3C00647F88 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		571504392BFA9FB400647F88 /* APIservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIservice.swift; sourceTree = "<group>"; };
+		5715043B2BFAA46600647F88 /* PostItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItemView.swift; sourceTree = "<group>"; };
+		5715043F2BFAABEB00647F88 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		571504412BFAB5AD00647F88 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		571504432BFAB7F000647F88 /* TagLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLabelView.swift; sourceTree = "<group>"; };
+		571504462BFAC4D700647F88 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		571504492BFAC50F00647F88 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		5715044B2BFAC5BF00647F88 /* UserItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemView.swift; sourceTree = "<group>"; };
+		5715044D2BFAC9C000647F88 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		5715044F2BFACC9400647F88 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		571504512BFADAFA00647F88 /* UserMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +122,9 @@
 		571503FC2BFA62EB00647F88 /* ios-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				571504382BFA9F6800647F88 /* Services */,
+				571504372BFA9F5800647F88 /* Utilities */,
+				5715042B2BFA9CA300647F88 /* Features */,
 				571503FD2BFA62EB00647F88 /* ios_challengeApp.swift */,
 				571503FF2BFA62EB00647F88 /* ContentView.swift */,
 				571504012BFA62ED00647F88 /* Assets.xcassets */,
@@ -125,6 +156,105 @@
 				5715041A2BFA62ED00647F88 /* ios_challengeUITestsLaunchTests.swift */,
 			);
 			path = "ios-challengeUITests";
+			sourceTree = "<group>";
+		};
+		571504272BFA93AB00647F88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				571504332BFA9D6600647F88 /* PostListView.swift */,
+				5715043B2BFAA46600647F88 /* PostItemView.swift */,
+				571504412BFAB5AD00647F88 /* PostDetailView.swift */,
+				571504432BFAB7F000647F88 /* TagLabelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5715042B2BFA9CA300647F88 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5715043D2BFAABD900647F88 /* User */,
+				5715042C2BFA9CB200647F88 /* Post */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5715042C2BFA9CB200647F88 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				571504302BFA9D1000647F88 /* ViewModel */,
+				5715042D2BFA9CF600647F88 /* Model */,
+				571504272BFA93AB00647F88 /* View */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		5715042D2BFA9CF600647F88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5715042E2BFA9D0100647F88 /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		571504302BFA9D1000647F88 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				571504352BFA9F3C00647F88 /* PostsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		571504372BFA9F5800647F88 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5715044F2BFACC9400647F88 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		571504382BFA9F6800647F88 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				571504392BFA9FB400647F88 /* APIservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5715043D2BFAABD900647F88 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				571504482BFAC4FF00647F88 /* ViewModel */,
+				571504452BFAC4C500647F88 /* View */,
+				5715043E2BFAABE300647F88 /* Model */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		5715043E2BFAABE300647F88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5715043F2BFAABEB00647F88 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		571504452BFAC4C500647F88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				571504462BFAC4D700647F88 /* UserListView.swift */,
+				5715044B2BFAC5BF00647F88 /* UserItemView.swift */,
+				5715044D2BFAC9C000647F88 /* UserDetailView.swift */,
+				571504512BFADAFA00647F88 /* UserMapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		571504482BFAC4FF00647F88 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				571504492BFAC50F00647F88 /* UsersViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +387,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571504442BFAB7F000647F88 /* TagLabelView.swift in Sources */,
+				5715044A2BFAC50F00647F88 /* UsersViewModel.swift in Sources */,
+				571504422BFAB5AD00647F88 /* PostDetailView.swift in Sources */,
+				5715043C2BFAA46600647F88 /* PostItemView.swift in Sources */,
+				571504522BFADAFA00647F88 /* UserMapView.swift in Sources */,
+				5715044E2BFAC9C000647F88 /* UserDetailView.swift in Sources */,
 				571504002BFA62EB00647F88 /* ContentView.swift in Sources */,
+				5715044C2BFAC5BF00647F88 /* UserItemView.swift in Sources */,
+				571504402BFAABEB00647F88 /* UserModel.swift in Sources */,
+				571504362BFA9F3C00647F88 /* PostsViewModel.swift in Sources */,
+				5715043A2BFA9FB400647F88 /* APIservice.swift in Sources */,
+				571504502BFACC9400647F88 /* Extensions.swift in Sources */,
+				571504472BFAC4D700647F88 /* UserListView.swift in Sources */,
+				5715042F2BFA9D0100647F88 /* PostModel.swift in Sources */,
+				571504342BFA9D6600647F88 /* PostListView.swift in Sources */,
 				571503FE2BFA62EB00647F88 /* ios_challengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
