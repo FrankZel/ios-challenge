@@ -10,6 +10,7 @@ import SwiftUI
 struct PostDetailView: View {
     
     var post: Post
+    var model = PostsViewModel()
     
     var body: some View {
         ScrollView {
@@ -26,7 +27,7 @@ struct PostDetailView: View {
                 
                 //            TagLabelView(color: .mint, text: post.category)
                 VStack(alignment: .leading){
-                    Text("by \(post.userID) - \(post.publishedAt)" )
+                    Text("by \(model.getAuthor(id: post.userID)) - \(post.publishedAt)" )
                         .font(.caption2)
                         .padding([.bottom, .top])
                     
@@ -49,6 +50,9 @@ struct PostDetailView: View {
                 }.padding([.leading, .trailing])
             }
         }.ignoresSafeArea()
+            .task {
+                await model.fetch()
+            }
     }
 }
 

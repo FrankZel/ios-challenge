@@ -9,6 +9,11 @@ import SwiftUI
 import MapKit
 
 struct UserMapView: View {
+    @Environment(\.colorScheme) var colorScheme
+    
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+
+    
     var user: User
     
     private var avatarId = Int.random(in: 1...6)
@@ -21,6 +26,7 @@ struct UserMapView: View {
     )
     
     @State private var showDrawer = true
+    
     
     init(user: User) {
         self.user = user
@@ -36,6 +42,9 @@ struct UserMapView: View {
                         .frame(width: 50, height: 50)
                         .clipShape(Circle())
                         .overlay(Circle().stroke(.black, lineWidth: 3))
+                        .onTapGesture {
+                            showDrawer.toggle()
+                        }
                 }
             }
             .onAppear{
@@ -44,14 +53,17 @@ struct UserMapView: View {
             .sheet(isPresented: $showDrawer) {
                 UserDetailView(user: user, avatarId: avatarId)
                     .interactiveDismissDisabled()
-                    .presentationDetents([.height(150), .medium, .large])
+                    .presentationDetents([.height(50), .medium, .fraction(0.999)])
                     .presentationBackgroundInteraction(
-                        .enabled(upThrough: .large)
+                        .enabled(upThrough: .fraction(0.999))
                     )
+                    .presentationCompactAdaptation(.sheet)
+                
+                // fraction(0.999) its to prevent the mapview to shrink when sheet is all way up.
             }
             .safeAreaInset(edge: .top, alignment: .trailing, content: {
               RoundedRectangle(cornerRadius: 12)
-                .fill(Color.white)
+                    .fill(colorScheme == .dark ? Color.black : Color.white)
                 .frame(width: 40, height: 40)
                 .overlay {
                   Image(systemName: "paperplane.fill")
@@ -79,7 +91,6 @@ struct UserMapView: View {
 }
 
 extension UserMapView {
-    
     
     func getPosition() -> MapCameraPosition {
         

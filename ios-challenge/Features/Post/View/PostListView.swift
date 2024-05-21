@@ -16,7 +16,7 @@ struct PostListView: View {
         NavigationStack{
             List(searchResults) { post in
                 NavigationLink(value: post){
-                    PostItemView(post: post, author: model.getAuthor(id: post.id))
+                    PostItemView(post: post)
                 }
             }.task {
                 await model.fetch()

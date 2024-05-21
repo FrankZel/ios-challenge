@@ -15,11 +15,9 @@ struct Post: Codable, Identifiable, Hashable {
     let image, thumbnail: String
     let status, category, publishedAt, updatedAt: String
     let userID: Int
-    
-    var author: String?
 
     enum CodingKeys: String, CodingKey {
-        case id, slug, url, title, content, image, thumbnail, status, category, publishedAt, updatedAt, author
+        case id, slug, url, title, content, image, thumbnail, status, category, publishedAt, updatedAt
         case userID = "userId"
     }
 }
